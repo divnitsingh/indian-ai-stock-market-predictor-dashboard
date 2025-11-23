@@ -1,4 +1,4 @@
-# stock_dashboard.py — India (NSE/BSE) edition
+# stock_dashboard.py 
 
 import yfinance as yf
 import pandas as pd
@@ -25,7 +25,7 @@ st.set_page_config(
 )
 
 # -----------------------------
-# Helpers (India formatting)
+# Helpers
 # -----------------------------
 def format_inr(num) -> str:
     """Format a number as ₹ with Indian digit grouping."""
